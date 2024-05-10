@@ -1,0 +1,9 @@
+name: MCHeads
+version: '${version}'
+main: com.github.tooooowa.mcheads.MCHeads
+api-version: '1.20'
+commands:
+  head:
+    permission: mcheads.command.head
+    usage: /<command> <mcid | url>
+    description: BE、JavaのヘッドやMinecraftHeadsのカスタムヘッドのURLで頭を取得できます
